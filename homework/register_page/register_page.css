@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* text-align: center; */
+  /* TODO  Display i inline-block yapip text-align i center yapsaydik yine form u ortalayabilirdik */
+
+  background-size: cover;
+}
+/* ! Labellere sabit bir deger verdik, hepsi ayni boyda olsun diye */
+label {
+  display: inline-block; /*? inline elementi block elemente cevirdik*/
+  width: 130px;
+  font-weight: 700;
+  margin-right: 10px;
+  font-size: 20px;
+}
+form {
+  background-color: #faaca8;
+  background-image: linear-gradient(90deg, #e39c98 0%, #dfd3ff 100%);
+
+  border-radius: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-align: left;
+  padding: 20px;
+  width: 480px;
+  /* width: fit-content; form boyutunu icerige gore ayarlar */
+  margin: auto; /* formu ekrana ortalar*/
+  /* display: inline-block; */
+  height: 780px;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 700;
+
+  margin: 10px;
+}
+div {
+  margin: 30px auto;
+  margin-top: 0px;
+}
+input {
+  border-radius: 4px;
+  height: 40px;
+  border: solid black 1px;
+}
+.button {
+  background-color: rgb(212, 100, 191);
+  width: 100px;
+  border-radius: 7px;
+  height: 40px;
+  border: 0px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.button:hover {
+  background-color: rgb(154, 13, 107);
+  color: aliceblue;
+  font-weight: 700;
+}
+.label1 {
+  cursor: text;
+  display: inline-block;
+  margin-bottom: 0;
+}
+p {
+  display: inline-block;
+  margin-right: 70px;
+}
+.radio {
+  display: inline-block;
+  margin: auto;
+  font-weight: 100;
+  vertical-align: middle;
+  margin-bottom: 13px;
+}
+.radio-label {
+  display: inline-block; /*? inline elementi block elemente cevirdik*/
+  width: 110px;
+  font-weight: 400;
+  width: 40px;
+  /* margin-left: 5px; */
+}
+.divradio {
+  display: inline-block;
+  margin-left: 0px;
+  margin-bottom: 15px;
+}
+.divarea {
+  vertical-align: middle;
+}
+.arealabel {
+  display: inline-block;
+  vertical-align: middle;
+}
+textarea {
+  vertical-align: middle;
+}

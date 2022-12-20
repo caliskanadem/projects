@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* text-align: center; */
+  /* TODO  Display i inline-block yapip text-align i center yapsaydik yine form u ortalayabilirdik */
+  background-image: url(https://cdn.pixabay.com/photo/2022/11/24/02/28/clouds-7613361_960_720.png);
+  background-size: cover;
+}
+/* ! Labellere sabit bir deger verdik, hepsi ayni boyda olsun diye */
+label {
+  display: inline-block; /*? inline elementi block elemente cevirdik*/
+  width: 110px;
+  font-weight: 900;
+  margin-right: 10px;
+}
+form {
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  border-radius: 10px;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  text-align: left;
+  padding: 20px;
+  width: fit-content; /* form boyutunu icerige gore ayarlar*/
+  margin: auto; /* formu ekrana ortalar*/
+  /* display: inline-block; */
+  height: 250px;
+}
+h1 {
+  text-align: center;
+  font-weight: 900;
+
+  margin: 30px;
+}
+div {
+  margin: 30px auto;
+  margin-top: 0px;
+}
+input {
+  border-radius: 4px;
+  height: 30px;
+  border: solid black 1px;
+}
+.button {
+  background-color: rgb(214, 138, 163);
+  width: 70px;
+  border-radius: 7px;
+  height: 25px;
+  border: 0px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(194, 96, 128);
+  color: aliceblue;
+  font-weight: 700;
+}
+.label1 {
+  cursor: text;
+}

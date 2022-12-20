@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.profile {
+  border: 20px solid #4285f4;
+  border-style: double;
+  width: 1000px;
+  height: 350px;
+}
+img {
+  width: 200px;
+}
+div.image {
+  float: left;
+  width: 30%;
+  padding-left: 50px;
+}
+div.information {
+  float: right;
+  width: 70%;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+div {
+  float: left;
+  width: 50%;
+  padding: 60px 0px 50px 0px;
+}
+h1 {
+  color: #4285f4;
+  font-weight: 900;
+}
+p {
+  font-weight: 600;
+}

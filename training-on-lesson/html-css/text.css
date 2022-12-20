@@ -1,0 +1,94 @@
+html {
+  /*? default font-size 16px */
+  font-size: 20px;
+}
+h1 {
+  /*? degistirilmedigi surece h1'in buyuklugu default font size'in 2 katidir 16px * 2 = 32px */
+  color: red;
+}
+p {
+  /*? p nin size default font size a esittir yani 16px */
+  font-size: 30px;
+}
+p.first {
+  font-size: 30px;
+}
+p.abs {
+  font-size: 20px;
+  font-size: 1cm;
+  /** mutlak olcu birimleri px, mm, cm, m , inch */
+}
+p.percent {
+  font-size: 200%;
+  /*? 16px *2 = 32 px yapar */
+}
+/*! EM olcu biriminde bir html elemaninin font size'i parent in font size ina gore oranlanir  */
+.div1 {
+  font-size: 1em;
+  /*? 1em = default font size a esittir */
+}
+.div2 {
+  font-size: 2em;
+  /*? parent in (div1) font-size inin 2 kati  */
+}
+.div3 {
+  font-size: 3em;
+  /** kendi parent i olan div2 nin 3 katina yani 32px*3=96px olur  */
+}
+/*! REM olcu biriminde bir html elemaninin font size'i ROOT elemaninin font size ina gore oranlanir  */
+
+.div4 {
+  font-size: 1rem;
+  /*? 16px*1=16px */
+}
+.div5 {
+  font-size: 2rem;
+  /*? 16px*2=32x */
+}
+.div6 {
+  font-size: 3rem;
+  /*? 16px*3=48px */
+}
+/*! ❤❤❤❤ TEXT STYLE ❤❤❤❤  */
+p.text-style {
+  font-weight: 900;
+  /* font-weight: bold; */
+  /* font-weight: bolder; */
+  font-variant: small-caps;
+  font-style: italic;
+  text-align: justify;
+}
+p.text-style .elit {
+  color: red;
+  text-decoration: line-through; /** ust cizgili*/
+  text-decoration: overline; /** uzeri cizgili */
+  text-decoration: underline; /** alti cizgili*/
+  text-decoration: none; /** cizgisiz*/
+}
+div.transformation {
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: capitalize;
+  text-transform: lowercase;
+  text-transform: uppercase;
+  text-transform: none;
+}
+div.transformation p.indent {
+  text-indent: 20px;
+}
+.spacing {
+  line-height: 1.5;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  direction: rtl; /** yazi yonu*/
+}
+.shadow {
+  padding: 1rem;
+  margin-bottom: 5rem;
+  background-color: antiquewhite;
+  box-shadow: 0px 3px 30px rgb(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.shadow h2 {
+  text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="register_page.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>REGISTER PAGE</h1>
+    <form action="">
+      <div>
+        <label for="firstname">First Name:</label>
+        <input
+          type="text"
+          id="firstname"
+          name="firstname"
+          class="label1"
+          style="width: 280px"
+        />
+      </div>
+
+      <div>
+        <label for="lastname">Last Name:</label>
+        <input
+          type="text"
+          id="lastname"
+          name="username"
+          class="label1"
+          style="width: 280px"
+        />
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="label1"
+          style="width: 280px"
+        />
+      </div>
+
+      <div>
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          class="label1"
+          style="width: 280px"
+        />
+      </div>
+
+      <div>
+        <label for="date">Day of Birth:</label>
+        <input
+          type="date"
+          id="date"
+          name="date"
+          class="label1"
+          style="
+            height: 40px;
+            width: 280px;
+            font-weight: 700;
+            font-size: 20px;
+            padding: 20px;
+          "
+        />
+      </div>
+
+      <div>
+        <label for="number">Phone:</label>
+        <input
+          type="number"
+          id="number"
+          name="number"
+          class="label1"
+          style="width: 280px"
+        />
+      </div>
+
+      <div class="divarea">
+        <label for="intro" class="arealabel">Adress:</label>
+        <textarea id="intro" cols="35" rows="7"></textarea>
+      </div>
+
+      <div>
+        <label for="countries">Country:</label>
+        <select
+          id="countries"
+          style="
+            height: 40px;
+            border-radius: 4px;
+            width: 280px;
+            font-size: 20px;
+            font-weight: 500;
+            padding-left: 20px;
+          "
+        >
+          <option value="">Select Country</option>
+        </select>
+      </div>
+
+      <p style="font-weight: 700; font-size: 20px">Gender:</p>
+      <div class="divradio">
+        <input type="radio" id="radio1" name="radio1" class="radio" />
+        <label for="radio1" class="radio-label">Male</label>
+
+        <input type="radio" id="radio2" name="radio2" class="radio" checked />
+        <label for="radio2" class="radio-label">Female</label>
+      </div>
+
+      <div style="width: 50%">
+        <input type="submit" value="Save" class="button" />
+        <input type="reset" value="Clear" class="button" />
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <style>
+      tr:nth-child(odd) {
+        background-color: rgb(238, 238, 238);
+      }
+      tr:nth-child(even) {
+        background-color: rgb(206, 205, 205);
+      }
+
+      th {
+        background-color: rgb(54, 54, 54);
+        color: white;
+      }
+      .icon {
+        /* font-size: large; */
+        text-align: center;
+        letter-spacing: 14px;
+      }
+      .grp1 {
+        text-align: left;
+      }
+      .grp2 {
+        text-align: center;
+      }
+      .grp3 {
+        text-align: right;
+      }
+      button {
+        background-color: #f45e5b;
+        color: white;
+        height: 35px;
+        border-color: #f45e5b;
+      }
+      button:hover {
+        background-color: white;
+        color: #f45e5b;
+        border-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <table width="35%">
+      <tr>
+        <th class="grp1">Urun Kodu</th>
+        <th class="grp1">Urun Adi</th>
+        <th class="grp2">Miktar</th>
+        <th>Birim Fiyat</th>
+        <th>Ara Toplam</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td>154654</td>
+        <td>Notebook</td>
+        <td class="grp2">1</td>
+        <td class="grp3">5400£</td>
+        <td class="grp3">5400£</td>
+        <td>
+          <div class="icon">
+            <i class="fa-sharp fa-solid fa-pen-to-square"></i
+            ><i class="fa-sharp fa-solid fa-trash-can"></i>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>456466</td>
+        <td>Klavye</td>
+        <td class="grp2">2</td>
+        <td class="grp3">80£</td>
+        <td class="grp3">160£</td>
+        <td>
+          <div class="icon">
+            <i class="fa-sharp fa-solid fa-pen-to-square"></i
+            ><i class="fa-sharp fa-solid fa-trash-can"></i>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>564646</td>
+        <td>Monitor</td>
+        <td class="grp2">1</td>
+        <td class="grp3">700£</td>
+        <td class="grp3">700£</td>
+        <td>
+          <div class="icon">
+            <i class="fa-sharp fa-solid fa-pen-to-square"></i
+            ><i class="fa-sharp fa-solid fa-trash-can"></i>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>123598</td>
+        <td>Mouse</td>
+        <td class="grp2">2</td>
+        <td class="grp3">50£</td>
+        <td class="grp3">100£</td>
+        <td>
+          <div class="icon">
+            <i class="fa-sharp fa-solid fa-pen-to-square"></i
+            ><i class="fa-sharp fa-solid fa-trash-can"></i>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>613448</td>
+        <td>Play Station</td>
+        <td class="grp2">1</td>
+        <td class="grp3">2500£</td>
+        <td class="grp3">2500£</td>
+        <td>
+          <div class="icon">
+            <i class="fa-sharp fa-solid fa-pen-to-square"></i
+            ><i class="fa-sharp fa-solid fa-trash-can"></i>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>789799</td>
+        <td>Usb Bellek</td>
+        <td class="grp2">3</td>
+        <td class="grp3">120£</td>
+        <td class="grp3">360£</td>
+        <td>
+          <div class="icon">
+            <i class="fa-sharp fa-solid fa-pen-to-square"></i
+            ><i class="fa-sharp fa-solid fa-trash-can"></i>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th colspan="4" class="grp3">TOPLAM</th>
+        <th class="grp3">9220£</th>
+        <th></th>
+      </tr>
+    </table>
+    <table>
+      <tr></tr>
+    </table>
+
+    <div style="margin-left: 280px; margin-top: 3px">
+      <button class="button">
+        <span style="color: black"
+          ><i class="fa-sharp fa-solid fa-cart-shopping"></i
+        ></span>
+        Alisverise Devam
+      </button>
+      <button class="button">
+        <span style="color: black"
+          ><i class="fa-sharp fa-solid fa-credit-card"></i
+        ></span>
+        Odemeye Gec
+      </button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  /* padding: 0; */
+}
+
+/************ LISTS **************/
+
+.languages {
+  list-style-type: circle;
+  /*? none, disk, circle, square, decimal etc. */
+  list-style-position: inside;
+  /* padding: 0; */
+
+  /* list-style-image: linear-gradient(to left bottom, red, blue);
+ */
+  list-style-image: url("house-solid.svg");
+}
+
+/******* FONTAWESOME *******  */
+.awesome {
+  color: red;
+  font-size: 1rem;
+}
+ul.pseudo li {
+  list-style-type: none;
+  background-color: aliceblue;
+  border: 1px solid gray;
+  width: 10rem;
+}
+ul.pseudo li:first-child {
+  background-color: antiquewhite;
+  color: red;
+}
+ul.pseudo li:nth-child(even) {
+  background-color: green;
+  color: white;
+}
+ul.pseudo li:last-child {
+  background-color: orange;
+  color: white;
+}
+ul.pseudo li:nth-child(4) {
+  background-color: purple;
+  color: white;
+}
+/* ul.pseudo li:nth-child(odd) {
+  background-color: gray;
+  color: white;
+} */
+ul.pseudo li:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+ul.pseudo li:active {
+  font-weight: 900;
+}
+/****** PSEUDO ELEMENTS ******  */
+
+ul.pseudo li::after {
+  content: "💖";
+}
+
+ul.pseudo li::before {
+  content: "🌹";
+}
+ul.pseudo li:nth-child(3)::before {
+  content: "🎶";
+}
+ul.pseudo li:last-child::before {
+  font-family: "Font Awesome 6 free";
+  font-weight: 600;
+  content: "\f662";
+}
+
+.ps-elements::first-line {
+  font-weight: 900;
+}
+.ps-elements::first-letter {
+  font-size: 200%;
+}

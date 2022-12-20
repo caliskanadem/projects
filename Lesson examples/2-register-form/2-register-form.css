@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url(https://cdn.pixabay.com/photo/2022/12/01/17/52/sea-7629517_960_720.jpg);
+  background-size: cover;
+  background-position: center;
+  /* todo   Ilk komut ile resmi getirdik. 2. komut ile ekrana gore buyut dedik. 3. komut ile merkezi ekranin ortasi olarak ayarla dedik*/
+  /* ! body nin default olarak yuksekligi yoktur */
+  height: 100vh; /* Tarayicinin gorunen alanin %100 yuksekligi */
+}
+/* textarea {
+  vertical-align: middle;
+} */
+h1 {
+  padding: 20px;
+  /* padding: 20px; */
+  font-family: "Sigmar One", cursive;
+  margin-bottom: 2px;
+  text-align: center;
+  color: #d9afd9;
+}
+form {
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+
+  width: fit-content;
+  margin: 20px auto;
+  padding: 30px;
+}
+label {
+  display: inline-block;
+  width: 100px;
+}
+.lang-div,
+.gender-div {
+  display: inline-block;
+}
+
+.lang-div label,
+.gender-div label {
+  display: inline-block;
+  width: auto;
+  margin-right: 10px;
+}
+.inputs {
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  /* !  Bu sekilde yapilirsa 0.3 border in opacity si olur */
+}
+
+.radio-check {
+  margin-bottom: 20px;
+  /* margin-left: 10px; */
+}
+.btn-container {
+  text-align: center;
+}
+.btn-container input {
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(299, 100%, 70%);
+  /* ! Tema yaparken hsl yi kullanmak isi cok basitlestirir */
+  padding: 10px;
+}
+.btn-container input:hover {
+  background-color: hsl(299, 100%, 40%);
+  color: aliceblue;
+  font-weight: 700;
+  cursor: pointer;
+}
+.textarea-div * {
+  vertical-align: middle;
+  /* ?   "*" isaretini kullanirsan icindeki butun herseyi etkiler */
+}
