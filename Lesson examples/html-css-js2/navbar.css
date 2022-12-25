@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#showcase {
+  background-color: #2e4c6d;
+  height: 500px;
+  width: 100%;
+  padding: 10px;
+}
+
+#how-it-works {
+  background-color: #fc997c;
+  padding: 10px;
+}
+
+.main-header {
+  background-color: #fc997c;
+  padding: 8px 16px;
+}
+
+.main-nav {
+  display: inline-block;
+  width: calc(100% - 99px);
+  text-align: right;
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-nav__item {
+  display: inline-block;
+  margin: 0 8px;
+}
+.main-header__logo {
+  color: #ffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 21px;
+}
+.main-nav__item a {
+  text-decoration: none;
+  color: #ffff;
+}
