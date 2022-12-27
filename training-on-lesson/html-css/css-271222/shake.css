@@ -1,0 +1,47 @@
+div {
+  text-align: center;
+}
+div i {
+  font-size: 10rem;
+}
+.fa-bell {
+  color: blue;
+}
+.fa-dollar-sign {
+  color: darkgreen;
+}
+
+.fa-bell:hover {
+  animation-name: shake;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.fa-dollar-sign:hover {
+  animation: snake 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(15deg);
+  }
+  33% {
+    transform: rotate(0deg);
+  }
+  66% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes snake {
+  0% {
+    transform: skew(45deg);
+  }
+  100% {
+    transform: skew(-45deg);
+  }
+}
