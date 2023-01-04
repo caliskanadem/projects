@@ -42,12 +42,14 @@ const findStudent = (name) => {
       counter++;
     }
   }
-  if(!counter){ //? !counter: counter false oldugunda demektir 
-  return `${name} can not bee found`
-}else{
-    `${name} found ${counter} times`
-}
-console.log(findStudent("mehmet"));
+  if (!counter) {
+    //? !counter: counter false oldugunda demektir
+    return `${name} can not bee found`;
+  } else {
+    `${name} found ${counter} times`;
+  }
+  console.log(findStudent("mehmet"));
+};
 //*-------------------------------------------------------
 //* SORU: Ogrenciler dizisinde ogrenci isimleri saklanmaktadir.
 //* ogrencileri aramamizi saglayacak ve aranilan ogrenciden
@@ -59,3 +61,17 @@ console.log(findStudent("mehmet"));
 //* =========================================
 //*            FOR-OF LOOP
 //* =========================================
+
+//* for of dongusu, for in dongusunun bir cok veri yapisini
+//* kapsayacak sekilde guncellenmis halidir. Bu dongude dizi
+//* icersindeki veriye erisirken indisleme kullanmaya gerek yoktur.
+
+const findStudentForOf = (name) => {
+  let counter = 0;
+  for (let students of students) {
+  }
+};
+
+console.log(findStudentForOf("Mehmet"));
+console.log(findStudentForOf("ismet"));
+console.log(findStudentForOf("feyza"));
