@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  /* height: 100vh; */
+  display: grid;
+  grid-template-columns: 300px 4rem 400px;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-rows: 50vh 25vh 25vh;
+
+  justify-content: center;
+}
+.content {
+  background-color: lightblue;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .content:nth-child(odd) {
+  background-color: darkblue;
+}
+.content:nth-child(even) {
+  background-color: yellow;
+} */
+
+.content7 {
+  overflow: auto;
+}
+.content9 {
+  background-image: url("https://cdn.pixabay.com/photo/2022/12/14/12/29/nature-7655327__340.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
